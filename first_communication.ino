@@ -1,0 +1,12 @@
+void setup() {
+  Serial.begin(115200);
+  while(!Serial){
+    
+    }
+}
+
+void loop() {
+  Serial.println("Hello form Arduino");
+  delay(1000);
+
+}
